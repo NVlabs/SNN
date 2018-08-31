@@ -19,3 +19,11 @@ Matlab code implementation of the modified Non Local Means and Bilateral filters
 # References
 
 I. Frosio, J. Kautz, Statistical Nearest Neighbors for Image Denoising, IEEE Trans. Image Processing, 2018.
+```
+@article{Fro18,
+  title={Statistical Nearest Neighbors for Image Denoising},
+  author={Frosio, Iuri and Kautz, Jan},
+  journal={IEEE Trans. Image Processing},
+  year={2018},  
+}
+```
