@@ -17,7 +17,7 @@ The figure shows a set of 8 bits, noisy, 100 x 100 patches from the Kodak datase
 
 # Usage
 
-**/NLM/nlm.m**: Matlab code to filter a user defined image thorugh the modified Non Local Means filter (accordinagly to the SNN approach) and user defined filtering parameters. The traditional Non Local Means filter is achieved passing offset = 0 in input.
+**/NLM/nlm.m**: Matlab code to filter a user defined image thorugh the modified Non Local Means filter (accordingly to the SNN approach) and user defined filtering parameters. The traditional Non Local Means filter is achieved passing offset = 0 in input.
 
 **/NLM/runme.m**: example usage of /NLM/nlm.m.
 
@@ -33,10 +33,16 @@ The figure shows a set of 8 bits, noisy, 100 x 100 patches from the Kodak datase
 
 I. Frosio, J. Kautz, Statistical Nearest Neighbors for Image Denoising, IEEE Trans. Image Processing, 2018.
 ```
-@article{Fro18,
-  title={Statistical Nearest Neighbors for Image Denoising},
-  author={Frosio, Iuri and Kautz, Jan},
-  journal={IEEE Trans. Image Processing},
-  year={2018},  
+@ARTICLE{8463600, 
+author={I. Frosio and J. Kautz}, 
+journal={IEEE Transactions on Image Processing}, 
+title={Statistical Nearest Neighbors for Image Denoising}, 
+year={2019}, 
+volume={28}, 
+number={2}, 
+pages={723-738}, 
+doi={10.1109/TIP.2018.2869685}, 
+ISSN={1057-7149}, 
+month={Feb},
 }
 ```
