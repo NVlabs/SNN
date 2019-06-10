@@ -24,7 +24,7 @@
 function img_f = nlm(img_n, halfPatchSize, windowHalfSearchSize, N_n, sigma, h, offset)
 
     % init
-    [xs, ys, cs] = size(img_n);
+    [ys, xs, cs] = size(img_n);
     patchSize = 2 * halfPatchSize + 1;
     P = cs * patchSize^2;
     expected_squared_distance = 2 * sigma^2;
